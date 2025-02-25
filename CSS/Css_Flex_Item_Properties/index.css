@@ -26,7 +26,7 @@
 .Box-1{
     flex: 1 0 200px;
 }
-/* .Box-1{
+.Box-1{
     flex-basis: 200px;
 }
 .Box-2{
@@ -34,8 +34,8 @@
 }
 .Box-3{
     flex-basis: 400px;
-} */
-/* .Box-2{
+}
+.Box-2{
     order: 3;
 }
 .Box-3{
@@ -49,11 +49,11 @@
 }
 .Box-1{
     order: 5;
-} */
-/* .Box-1{
+}
+.Box-1{
     flex-shrink:0;
-} */
-/* .Box-1{
+}
+.Box-1{
     flex-grow: 4;
 }
 .Box-2{
@@ -64,4 +64,4 @@
 }
 .Box-4{
     flex-grow: 1;
-} */
+}

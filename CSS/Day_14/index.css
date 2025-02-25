@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.Box-1{background-color: red;}
+.Box-2{background-color: yellowgreen;}
+.Box-3{background-color: blue;}
+.Box-4{background-color: pink;}
+.Box-5{background-color: orangered;}
+.Box-6{background-color: green;}
+.Box-7{background-color: purple;}
+.Box-8{background-color: orange;}
+.Box-9{background-color: tomato;}
+.Box{
+    width: fit-content;
+    padding: 6px 20px;
+    /* width: 200px; */
+}
+
+.container{
+    border:3px solid Black;
+    margin: 15px;
+    display: flex;
+}
+.Box-1{
+    flex: 1 0 200px;
+}
+/* .Box-1{
+    flex-basis: 200px;
+}
+.Box-2{
+    flex-basis: 300px;
+}
+.Box-3{
+    flex-basis: 400px;
+} */
+/* .Box-2{
+    order: 3;
+}
+.Box-3{
+    order: 2;
+}
+.Box-4{
+    order: 1;
+}
+.Box-5{
+    order: 4;
+}
+.Box-1{
+    order: 5;
+} */
+/* .Box-1{
+    flex-shrink:0;
+} */
+/* .Box-1{
+    flex-grow: 4;
+}
+.Box-2{
+    flex-grow: 1;
+}
+.Box-3{
+    flex-grow: 1;
+}
+.Box-4{
+    flex-grow: 1;
+} */

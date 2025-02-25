@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&family=Poppins:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: #111111;
+}
+.Card_Container{
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.Title{
+    text-align: center;
+    background-color: yellowgreen;
+    letter-spacing: .35rem;
+}
+.card{
+    margin: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border: 1px solid #ffffff4d;
+    padding: 20px;
+    cursor: pointer;
+    transition: .7s;
+}
+.card p{
+    font-weight: 100;
+    font-size: 12px;
+}
+.card:hover{
+    transition: .7s;
+    box-shadow: 0 0 10px #ffffff4d;
+}

@@ -1,0 +1,30 @@
+*{
+   padding: 0%;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.Box-1{
+    background-color: red;
+    width: fit-content;
+    padding: 10px 14px;
+    position: relative;
+    top: 40px;
+    z-index: 3;
+    /* 
+     position: relative;
+     position: absolute;
+        left
+        right
+        top
+        bottom
+    */
+}
+.Box-2{
+    background-color: blue;
+    width: fit-content;
+    padding: 10px 10px;
+    position: absolute;
+    top: 30px;
+    z-index: 5;
+}

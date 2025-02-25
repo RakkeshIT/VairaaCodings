@@ -1,0 +1,38 @@
+/* 
+    px
+    vh
+    vw
+    rem
+    em
+    %
+*/
+
+.HomePage{
+    height:100vh;
+    width:100%;
+    text-align: center;
+    background-color: yellow;
+}
+.AboutPage{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url('/Image/imag.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ServicePage{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(
+        80deg, red 80%, magenta 20%
+    );
+}
+.ContactPage{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+}

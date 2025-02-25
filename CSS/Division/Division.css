@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&family=Poppins:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", serif;
+}
+
+.HomePage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+
+    &>.HomeContent {
+
+        &>.Title {
+            color: #fff;
+            font-size: 40px;
+            letter-spacing: 4px;
+        }
+
+        &>.SubTitle {
+            font-size: 20px;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
+        }
+
+        &>.Button {
+            &>a {
+                text-decoration: none;
+                color: #000;
+                padding: 5px 25px;
+            }
+
+            &>.SeeMore {
+                background-color: #6F00FF;
+            }
+
+            &>.Join {
+                border: 1px solid #6F00FF;
+                margin-left: 20px;
+            }
+        }
+    }
+}

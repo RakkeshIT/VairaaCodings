@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    border: 1px solid red;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Box-1{
+    background-color: yellowgreen;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-2{
+    background-color: red;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-3{
+    background-color: green;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-4{
+    background-color: indigo;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-5{
+    background-color: orangered;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-6{
+    background-color: blueviolet;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-7{
+    background-color: magenta;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-8{
+    background-color: burlywood;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}
+.Box-9{
+    background-color: yellowgreen;
+    color: black;
+    width: fit-content;
+    padding:6px 10px ;
+}

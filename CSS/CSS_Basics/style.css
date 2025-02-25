@@ -1,0 +1,29 @@
+/* 
+    color
+    Typography
+    1 => %
+    2 => px
+    3 => rem
+    4 => vh
+    5 => vw
+    6 => em
+*/
+/*  */
+h1{
+    color: #22afbe;
+    font-family: sans-serif ;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    text-align: right;
+    text-align:left;
+    text-decoration:line-through;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+p{
+    text-align: justify;
+}

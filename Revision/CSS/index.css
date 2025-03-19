@@ -1,0 +1,31 @@
+body{
+    height: 300vh;
+}
+h3{
+    color: cyan;
+}
+#head1{
+    color: indigo;
+}
+#head2{
+    color: orangered;
+}
+#head3{
+    color: blueviolet;
+    background-color: aqua;
+    width:fit-content;
+    /* height: 100px; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    /* margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; */
+}
+p{
+    font-weight: bold;
+}

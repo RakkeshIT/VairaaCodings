@@ -1,84 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Tutorial</title>
-    <style>
-        body{
-            height: 200vh;
-        }
-        table th,td{
-            border: 1px solid red;
-        }
-    </style>
+    <title>HTML REVISION</title>
 </head>
+
 <body>
-    <h1>HTML Titorial</h1>
-    <h2>HTML Titorial</h2>
-    <h3>HTML Titorial</h3>
-    <h4>HTML Titorial</h4>
-    <h5>HTML Titorial</h5>
-    <h6>HTML Titorial</h6>
+    <!-- h - TAG => 6 Tags [h1,h2,h3,h4,h5,h6] -->
+     <h1>Heading</h1>
+     <h2>Heading</h2>
+     <h3>Heading</h3>
+     <h4>Heading</h4>
+     <h5>Heading</h5>
+     <h6>Heading</h6>
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit numquam quasi hic eum architecto maiores! Harum consequuntur, architecto saepe quos voluptatum itaque. Animi cumque deserunt laborum minima. Commodi, similique.</p>
+     <!-- Paragraph -> <p><p/> -->
+     <p>
+        This is a HTML Revision Class for Students and Job Seekers
+     </p>
 
-    <button>Button</button>
+     <!-- Anchor for Create Links -> <a href=""><a/> href = HYPERTEXT REFERENCE -->
+    <a href="https://fonts.google.com/" target="_blank">I am a LINK</a>
 
-   <a href="/Revision/files/RakkeshCV (3).pdf" download="Resume.pdf">Download Resume</a>
+    <!-- Image TAG -> <img> src -> SOURCE alt-> ALTERNATIVE TEXT-->
+     <!-- LINK FORMAT
+        1 -> ACCESS CURRENT FOLDER [./]
+        2 -> ACCESS ROOT FOLDER [/]
+     -->
+     <img src="/Bg.jpg" alt="Sample Image" width="500" height="500">
 
-    <ul>
-        <li>Biriyani</li>
-        <li>Sambar</li>
-        <li>Tea</li>
-    </ul>
+     <!-- How to create LIST
+        TWO TYEPS
+        1) Unorder list [ul tag]
+        2) Order list [ol tag]
+        How to display the text inside this tags
+        ==> using li tag 
+     -->
+    <!-- Create unorder list -->
+     <ul>
+        <li>Sample Text</li>
+        <li>Sample Text - 2</li>
+        <li>Sample Text - 3</li>
+     </ul>
+     <!-- Create a Order List -->
     <ol>
-        <li>Biriyani</li>
-        <li>Sambar</li>
-        <li>Tea</li>
+        <li>Demo Text - 1</li>
+        <li>Demo Text - 2</li>
+        <li>Demo Text - 3</li>
     </ol>
 
+    <!-- Tables
+        table TAG -> ROOT TAG
+        thead -> Root tag for th
+        tr TAG -> Create a Row
+        th TAG -> Table Head [Create a Table Headings]
+        tBody -> root tag for Table Data
+        td TAG -> Table Data [Insert the Data] 
+    -->
     <table>
+      <thead>
         <tr>
             <th>S.No</th>
-            <th>Name</th>
-            <th>Department</th>
+            <th>EMP Name</th>
+            <th>EMP Salary</th>
         </tr>
-
+      </thead>
+      <tbody>
         <tr>
             <td>1</td>
-            <td>Arun</td>
-            <td>CS</td>
+            <td>Sham</td>
+            <td>35,000</td>
         </tr>
+
         <tr>
             <td>2</td>
-            <td>Akalya</td>
-            <td>CS</td>
+            <td>Arun</td>
+            <td>40,0000</td>
         </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Arun</td>
+            <td>40,0000</td>
+        </tr>
+      </tbody>
     </table>
 
-    <form>
-        <label for="username">Username</label>
-        <input type="email" id="username">
-        <br>
-        <br>
-        <textarea cols="30" rows="10"></textarea>
-        <br><br>
-        <select>
-            <option value="">Select Your Department</option>
-            <!-- <option value="">Select Your Department</option>
-            <optgroup label="PG">
-                <option value="">MSC</option>
-                <option value="">MCA</option>
-            </optgroup>
-            <optgroup label="UG">
-                <option value="">BSC</option>
-                <option value="">BCA</option>
-                <option value="">BCOM</option>
-            </optgroup> -->
-        </select>
+    <!-- Forms
+        1) label TAG
+        2) input TAG
+        3) select TAG and option TAG
+        4) textarea 
+    -->
 
+    <form>
+        <h1>Login Form</h1>
+
+        <label>User Name</label>
+        <input type="text">
+        <br>
+        <br>
+        <label>Password</label>
+        <input type="password">
+
+        <br>
+        <br>
+        <select>
+            <option value="">Select Yor department</option>
+            <option value="It">It</option>
+            <option value="Account">Account</option>
+        </select>
+        <br><br>
+        <textarea></textarea>
+        <br><br>
         <input type="submit">
     </form>
 </body>
+
 </html>

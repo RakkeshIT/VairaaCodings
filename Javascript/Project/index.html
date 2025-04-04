@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Project</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div class="Container">
+        <h1>Number Calculation</h1>
+        <div class="Input__Group">
+            <div class="Group">
+                <label for="">Number 1</label>
+                <input type="text" id="input1">
+            </div>
+            <div class="Group">
+                <label for="">Number 1</label>
+                <input type="text" id="input2">
+            </div>
+
+            <div>
+                <p id="message"></p>
+            </div>
+        </div>
+
+        <div class="Button__Group">
+            <button id="add" onclick="calculate('add')">Add</button>
+            <button id="sub" onclick="calculate('sub')">Subtract</button>
+            <button id="div" onclick="calculate('div')">Division</button>
+            <button id="mul" onclick="calculate('mul')">Multiplication</button>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

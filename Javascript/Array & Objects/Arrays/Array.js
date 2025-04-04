@@ -8,7 +8,7 @@
     let studentName = ["Arun","Ram","Akalya","Abi","Prakash"]
 */
 
-let studentMarks = [34,54,67,87,97];
+let studentMarks = [1,2,3,4,5,6,7,8];
 
 console.log(studentMarks);
 console.log(studentMarks[4]);
@@ -30,12 +30,14 @@ console.log(studentMarks);
 
 
 // Array Method - map
+studentMarks.map((vals)=> { console.log(vals);
+})
 
-studentMarks.map((value,index) => console.log(`Index: ${index}, Values: ${value}`)
-)
+// Filter Method
+console.log("Filter Method");
 
-
-
+const fil = studentMarks.filter((val)=> val % 2 === 0)
+console.log(fil);
 
 
 

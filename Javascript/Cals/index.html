@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM PROJECT</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div class="Container">
+        <h1>Simple Calculation</h1>
+        <!-- Create a Form -->
+        <div class="Form__Group">
+            <div class="group">
+                <label for="">Numer 1</label>
+                <input type="text" id="input1">
+            </div>
+
+            <div class="group">
+                <label for="">Numer 2</label>
+                <input type="text" id="input2">
+            </div>
+        </div>
+        <p id="msg">Message</p>
+        <!-- Creating a Button -->
+         <div class="Button__Group">
+            <button onclick="calculation('add')">Add</button>
+            <button onclick="calculation('sub')">Sub</button>
+            <button onclick="calculation('div')">Div</button>
+            <button onclick="calculation('mul')">Mul</button>
+         </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

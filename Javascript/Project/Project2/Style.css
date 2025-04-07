@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&family=Poppins:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    padding: 20px 40px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li {
+    display: inline;
+    padding-left: 40px;
+}
+.line{
+    height: 2px;
+    width: 30px;
+    background-color: yellowgreen;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.MobilMenu{
+    cursor: pointer;
+    display: none;
+}
+@media all and (max-width:600px) {
+    .MobilMenu{
+        display: block;
+        position: absolute;
+        right: 30px;
+    }
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    ul{
+        display: none;
+    }
+    .Active{
+        display: block;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .Logo{
+        align-self: flex-start;
+    }
+}
